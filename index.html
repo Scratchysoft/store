@@ -3,6 +3,7 @@
 <head>
 <title>Store</title>
 <link rel="shortcut icon" href="https://raw.githubusercontent.com/Scratchysoft/home/master/Scratchysoft%20logo.jpg" />
+ <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <style>
  body {
@@ -87,6 +88,7 @@ div {
  <div></div>
  <p>Video Editing, Software Creation, Game Creation, and Terrible Digital Art ;)</p>
  <form action="https://formspree.io/kartkrafteryt@gmail.com" method="POST">
+  
   <p>Name</p>
   <input type="text" name="name">
   <p>Email</p>
@@ -94,6 +96,12 @@ div {
   <p>Anything you want to say before I email you?</p>
   <input type="text" name="data">
   <input type="submit" value="Send">
+  <button
+class="g-recaptcha"
+data-sitekey="6LfNP3wUAAAAAHeFgI5MiHGpwBJlKbykeFPuQUAq"
+data-callback="YourOnSubmitFn">
+Submit
+</button>
 </form>
 
 
